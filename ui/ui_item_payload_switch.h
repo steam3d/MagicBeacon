@@ -1,0 +1,1 @@
+void magic_beacon_ui_item_payload_switch(void* context);

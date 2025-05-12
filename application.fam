@@ -1,0 +1,17 @@
+# For details & more options, see documentation/AppManifests.md in firmware repo
+
+App(
+    appid="magic_beacon",  # Must be unique
+    name="MagicBeacon",  # Displayed in menus
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="magic_beacon_app",
+    stack_size=2 * 1024,
+    fap_category="Bluetooth",
+    # Optional values
+    fap_version="1.0",
+    fap_icon="magic_beacon.png",  # 10x10 1-bit PNG
+    fap_description="An emulator of AirPods LE packets",
+    fap_author="Aleksandr Maslov",
+    fap_weburl="https://github.com/steam3d/MagicBeacon",
+    fap_icon_assets="images",
+)
