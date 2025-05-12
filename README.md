@@ -4,8 +4,6 @@
 
 MagicBeacon is a [Flipper Zero](https://flipperzero.one) application that emulates Bluetooth Low Energy (BLE) payloads broadcasted by AirPods.
 
----
-
 ## 💾 Installation
 
 ### 1. Install UFBT
